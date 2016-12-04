@@ -2,16 +2,15 @@
 
 Se pretende desarrollar una aplicación la cual pueda traer datos principales de la institución CJAVA y mostrarla en la pantalla de la siguiente manera:
 
-
-
-
 Para poder desarrollar esta aplicación debera tener en cuenta las siguientes consideraciones:
+
+1. Cree un nuevo proyecto en Android Studio bajo el nombre de TrabajoPractico_Android_GRC, configuren el nombre de su paquete como com.cjava.androidwork y  seleccione como Minimun SDK el API 18: Android Jelly Bean
 
 1. Usará como servicio web el link público que ofrece GitHub con el perfil de CJAVA.
 
       Enlace de servicio web: https://api.github.com/users/cjavaperu
       
-      Cuerpo :
+      Cuerpo de respuesta (JSON):
       
       ```json
 {
@@ -23,10 +22,17 @@ Para poder desarrollar esta aplicación debera tener en cuenta las siguientes co
   "location": "Av. Arenales 395 Of. 290 Cercado de Lima"
 }
 ```
-      
-        
+  
+  2. Importar como dependencias la libreria de Retrofit para el consumo de el servicio web en el gradle:
       
-      
-
+      ```gradle 
+      dependencies {
+            ..
+            ...
+            .....
+            compile "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+            compile "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
+            }
+     ```    
 
 
