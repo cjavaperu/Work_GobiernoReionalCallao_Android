@@ -25,12 +25,12 @@ Para poder desarrollar esta aplicación debera tener en cuenta las siguientes co
   
   2. Importar como dependencias la libreria de Retrofit para el consumo de el servicio web en el gradle:
       
-```groovy
-compile 'com.squareup.retrofit2:retrofit:2.0.2'
-compile 'com.squareup.retrofit2:converter-gson:2.0.2'
-```
+      ```groovy
+      compile 'com.squareup.retrofit2:retrofit:2.0.2'
+      compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+      ```
 
-3. 
+      3. 
      
 
 
