@@ -7,6 +7,21 @@ Se pretende desarrollar una aplicación la cual pueda traer datos principales de
 
 Para poder desarrollar esta aplicación debera tener en cuenta las siguientes consideraciones:
 
-1. Usará como servicio web el link público que ofrece GitHub con el perfil de CJAVA.
+1. Usará como servicio web el link público que ofrece GitHub con el perfil de CJAVA, donde el cuerpo de 
+      Enlace de servicio web: https://api.github.com/users/cjavaperu
+      Cuerpo :
+{
+  "login": "cjavaperu",
+  "id": 12662322,
+  "name": "CJAVA PERÚ",
+  "company": "Cjavaperu",
+  "blog": "www.cjavaperu.com",
+  "location": "Av. Arenales 395 Of. 290 Cercado de Lima"
+}
+      
+        
+      
+      
 
->https://api.github.com/users/cjavaperu
+
+
