@@ -25,15 +25,9 @@ Para poder desarrollar esta aplicación debera tener en cuenta las siguientes co
   
   2. Importar como dependencias la libreria de Retrofit para el consumo de el servicio web en el gradle:
       
-      ```json 
-      dependencies {
-            ..
-            ...
-            .....
-            compile "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
-            compile "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
-            }
-     ```
+    ```json 
+        
+           ```
      
 
 
