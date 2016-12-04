@@ -11,6 +11,8 @@ Para poder desarrollar esta aplicación debera tener en cuenta las siguientes co
 
       Enlace de servicio web: https://api.github.com/users/cjavaperu
       Cuerpo :
+      
+      ```json
 {
   "login": "cjavaperu",
   "id": 12662322,
@@ -19,7 +21,8 @@ Para poder desarrollar esta aplicación debera tener en cuenta las siguientes co
   "blog": "www.cjavaperu.com",
   "location": "Av. Arenales 395 Of. 290 Cercado de Lima"
 }
-      
+```
+      
         
       
       
