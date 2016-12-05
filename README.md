@@ -32,5 +32,5 @@ Para poder desarrollar esta aplicación debera tener en cuenta las siguientes co
 4. Implementar el consumo del servicio web mediante Arquitectura  Android MVP
 
      
-![alt tag](https://postimg.org/image/3lsfxlzy1/)
+![alt tag](https://s18.postimg.org/gbfl2qeih/Captura_de_pantalla_2016_12_04_a_la_s_19_31_30.png)](https://postimg.org/image/gbfl2qeid/)
 
