@@ -29,7 +29,7 @@ Para poder desarrollar esta aplicación debera tener en cuenta las siguientes co
  compile 'com.squareup.retrofit2:converter-gson:2.0.2'
  ```
   
-4. Implementar el consumo del servicio web mediante Arquitectura  Android MVP
+4. Implementar el consumo del servicio web mediante Arquitectura  Android MVP siguiendo el respectivo Diagrama
 
      
 ![alt tag](https://s18.postimg.org/gbfl2qeih/Captura_de_pantalla_2016_12_04_a_la_s_19_31_30.png)
